@@ -4,7 +4,11 @@ import { Award, FolderKanban, Play, TestTubeDiagonal, Code } from "lucide-react"
 
 // Hero
 export const sectionLinks = ["Home", "Skills", "Projects", "Contact"];
-export const socials = { github: "https://github.com/danielbxs", linkedin: "https://linkedin.com/in/danielbxs", resume: "" };
+export const socials = {
+  github: "https://github.com/danielbxs",
+  linkedin: "https://linkedin.com/in/danielbxs",
+  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1787646232/resume.pdf",
+};
 export const iconLabels = { github: "GitHub Profile", linkedin: "LinkedIn Profile", resume: "Resume" };
 
 // Skills
@@ -30,7 +34,7 @@ export const skillGroups = [
 ];
 export const certifications = [
   { name: "ISTQB Certified Tester - Foundation Level v4.0", issuer: "ISTQB", date: "Issued 2026", icon: Award },
-  { name: "Meta Front-End Developer Certification", issuer: "Meta", date: "Issued 2025", icon: Award },
+  { name: "Meta Front-End Developer", issuer: "Meta", date: "Issued 2025", icon: Award },
   { name: "AT*SQA API Testing Micro-credential", issuer: "AT*SQA", date: "Issued 2026", icon: Award },
 ];
 // Projects

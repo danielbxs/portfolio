@@ -57,7 +57,7 @@ export function Navigation() {
               <FaLinkedin />
             </a>
 
-            <a href={socials.resume} className="icon-link" aria-label={iconLabels.resume} title={iconLabels.resume}>
+            <a href={socials.resume} target="_blank" className="icon-link" aria-label={iconLabels.resume} title={iconLabels.resume}>
               <FileText size={17} />
             </a>
           </div>
