@@ -7,7 +7,7 @@ export const sectionLinks = ["Home", "Skills", "Projects", "Contact"];
 export const socials = {
   github: "https://github.com/danielbxs",
   linkedin: "https://linkedin.com/in/danielbxs",
-  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1787646232/resume.pdf",
+  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1787832365/resume_l.pdf",
 };
 export const iconLabels = { github: "GitHub Profile", linkedin: "LinkedIn Profile", resume: "Resume" };
 
