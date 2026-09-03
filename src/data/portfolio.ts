@@ -25,11 +25,11 @@ export const skillGroups = [
       "Manual Testing",
       "API Testing",
       "Test Case Design",
+      "Risk-based Testing",
       "Defect Reporting",
       "Regression Testing",
       "Smoke Testing",
       "User Acceptance Testing",
-      "Mobile Testing",
     ],
   },
   {
