@@ -1,13 +1,11 @@
 import { Award, FolderKanban, Play, TestTubeDiagonal, Code } from "lucide-react";
 
-// Nav
-
 // Hero
-export const sectionLinks = ["Home", "Skills", "Projects", "Contact"];
+export const sectionLinks = ["Home", "Skills", "Experience", "Projects", "Contact"];
 export const socials = {
   github: "https://github.com/danielbxs",
   linkedin: "https://linkedin.com/in/danielbxs",
-  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1788478356/resume.pdf",
+  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1788549447/resume.pdf",
 };
 export const iconLabels = {
   github: "GitHub Profile",
@@ -56,6 +54,7 @@ export const skillGroups = [
     skills: ["Jira", "Zephyr Scale"],
   },
 ];
+
 export const certifications = [
   {
     name: "ISTQB Certified Tester - Foundation Level v4.0",
@@ -76,6 +75,23 @@ export const certifications = [
     icon: Award,
   },
 ];
+
+// Experience
+export const experience = [
+  {
+    company: "Sandbox Interactive",
+    role: "Localization Specialist",
+    startDate: "2023",
+    endDate: "Present",
+    responsibilities: [
+      "Created and validated Portuguese (PT-BR) translations across game builds, web content, media campaigns, and patch notes for the game Albion Online.",
+      "Verified PT-BR strings to eliminate UI clipping, cut-off text, and variable errors.",
+      "Reported localization defects with clear reproduction steps, screenshots, and string ID references. Collaborated with the project manager and the content team to resolve defects before releases, ensuring clean, error-free PT-BR localization across all releases.",
+      "Supported localization for one of Albion’s top regional player bases by maintaining high player engagement, creating culturally relevant terms for better game understanding and communication, and improving regional user retention across major updates.",
+    ],
+  },
+];
+
 // Projects
 
 export const projects = [
@@ -132,5 +148,8 @@ export const formspreeEndpoint = "https://formspree.io/f/mnjeenwz";
 export const formFailure = "Something went wrong. Please try again later.";
 export const formSuccess =
   "Thanks for reaching out! I will get back to you as soon as possible.";
-
 // Footer
+
+// Constants
+
+export const INITIAL_VISIBLE_ENTRIES = 3;

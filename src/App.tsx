@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
+import { Experience } from "./components/Experience";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
         <Navigation />
         <Hero />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

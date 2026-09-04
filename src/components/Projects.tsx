@@ -8,7 +8,7 @@ export function Projects() {
   const move = (direction: number) => setIndex((index + direction + projects.length) % projects.length);
 
   return (
-    <section id="projects" className="border-y border-border">
+    <section id="projects" className="border-y border-border bg-card/40">
       <div className="mx-auto max-w-6xl px-5 py-20 lg:px-8 lg:py-28">
         <div className="flex items-end justify-between gap-4">
           <div>
