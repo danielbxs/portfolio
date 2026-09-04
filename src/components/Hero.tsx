@@ -47,7 +47,7 @@ export function Hero() {
           </a>
 
           <a className="button-secondary" href="#contact">
-            <Mail />
+            <Mail size={16} />
             Contact me
           </a>
         </div>
