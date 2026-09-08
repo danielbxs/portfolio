@@ -5,7 +5,7 @@ export const sectionLinks = ["Home", "Skills", "Experience", "Projects", "Contac
 export const socials = {
   github: "https://github.com/danielbxs",
   linkedin: "https://linkedin.com/in/danielbxs",
-  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1788549447/resume.pdf",
+  resume: "https://res.cloudinary.com/vrqntmnc/image/upload/v1788898619/resume.pdf",
 };
 export const iconLabels = {
   github: "GitHub Profile",
@@ -22,12 +22,13 @@ export const skillGroups = [
       "Automated Testing",
       "Manual Testing",
       "API Testing",
+      "Test Planning",
       "Test Case Design",
       "Risk-based Testing",
       "Defect Reporting",
       "Regression Testing",
       "Smoke Testing",
-      "User Acceptance Testing",
+      "Exploratory Testing",
     ],
   },
   {
@@ -46,7 +47,7 @@ export const skillGroups = [
   {
     title: "Testing Frameworks",
     icon: Play,
-    skills: ["Playwright", "Cypress", "Postman", "Newman", "k6"],
+    skills: ["Playwright", "Postman", "Newman", "k6"],
   },
   {
     title: "Test Management Tools",
@@ -62,12 +63,7 @@ export const certifications = [
     date: "Issued 2026",
     icon: Award,
   },
-  {
-    name: "Meta Front-End Developer",
-    issuer: "Meta",
-    date: "Issued 2025",
-    icon: Award,
-  },
+  { name: "Meta Front-End Developer", issuer: "Meta", date: "Issued 2025", icon: Award },
   {
     name: "AT*SQA API Testing Micro-credential",
     issuer: "AT*SQA",
@@ -100,8 +96,7 @@ export const projects = [
     description:
       "A Playwright + TypeScript testing framework validating authentication, inventory, cart, and checkout flows.",
     tags: ["Automation", "Playwright", "TypeScript", "axe-core", "CI/CD"],
-    image:
-      "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/playwright",
+    image: "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/playwright",
     repo: "https://github.com/danielbxs/saucedemo-playwright-framework",
   },
   {
@@ -109,8 +104,7 @@ export const projects = [
     description:
       "API test automation framework for the Restful-Booker API using Postman, Newman, and GitHub Actions.",
     tags: ["API Testing", "Postman", "Newman", "CI/CD"],
-    image:
-      "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/api-testing",
+    image: "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/api-testing",
     repo: "https://github.com/danielbxs/rb-api-test-suite",
   },
   {
@@ -120,6 +114,14 @@ export const projects = [
     tags: ["Manual Testing", "Jira", "Zephyr Scale"],
     image: "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/manual",
     repo: "https://github.com/danielbxs/orangehrm-manual-qa",
+  },
+  {
+    title: "Ticket Center API Performance Testing With k6",
+    description:
+      "API performance test suite featuring reusable k6 scripts, functional checks, thresholds, and GitHub Actions integration.",
+    tags: ["Performance Testing", "K6", "API Testing", "JavaScript", "NodeJS", "CI/CD"],
+    image: "https://res.cloudinary.com/vrqntmnc/image/upload/f_auto,q_auto/manual",
+    repo: "https://github.com/danielbxs/k6-performance-testing",
   },
 ];
 

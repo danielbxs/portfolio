@@ -14,7 +14,7 @@ export function Experience() {
   return (
     <section id="experience" className="border-y border-border">
       <div className="mx-auto max-w-6xl px-5 py-20 lg:px-8 lg:py-28">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl">
           <p className="eyebrow">Experience</p>
           <h2 className="section-title mt-4">Helping teams ship with confidence</h2>
         </div>
