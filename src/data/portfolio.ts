@@ -80,10 +80,10 @@ export const experience = [
     startDate: "2023",
     endDate: "Present",
     responsibilities: [
-      "Created and validated Portuguese (PT-BR) translations across game builds, web content, media campaigns, and patch notes for the game Albion Online.",
-      "Verified PT-BR strings to eliminate UI clipping, cut-off text, and variable errors.",
-      "Reported localization defects with clear reproduction steps, screenshots, and string ID references. Collaborated with the project manager and the content team to resolve defects before releases, ensuring clean, error-free PT-BR localization across all releases.",
-      "Supported localization for one of Albion’s top regional player bases by maintaining high player engagement, creating culturally relevant terms for better game understanding and communication, and improving regional user retention across major updates.",
+      "Created and validated Portuguese (PT-BR) content across game builds, websites, media campaigns, and patch notes for Albion Online",
+      " Performed localization QA to identify UI truncation, cut-off text, variable errors, and linguistic inconsistencies before releases.",
+      "Reported defects with reproduction steps, screenshots, and string ID references, collaborating with project management and content teams to validate fixes.",
+      "Supported localization for one of Albion`s top regional player bases by creating culturally relevant terminology to support game understanding, communication, and a consistent PT-BR experience across major updates.",
     ],
   },
 ];
