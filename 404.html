@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Site moved</title>
+    <script>
+      const path = window.location.pathname.replace(/^\/portfolio(?=\/|$)/, "") || "/";
+
+      window.location.replace(
+        "https://danielbxs.com" + path + window.location.search + window.location.hash,
+      );
+    </script>
+    <meta http-equiv="refresh" content="0; url=https://danielbxs.com/" />
+  </head>
+  <body>
+    <p>Site moved to <a href="https://danielbxs.com/">danielbxs.com</a>.</p>
+  </body>
+</html>
